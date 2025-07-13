@@ -57,7 +57,7 @@ blueprint:
           step: 0.1
           unit_of_measurement: s
           mode: slider
-  source_url: 
+  source_url: https://github.com/lukasradek/Home_Assistant/blob/a84f4d731959abb63c51c1bf3b8cf741564fae3c/styrbar-remote-control-for-tradfri-bulbs.yaml
 trigger:
 - platform: device
   device_id: !input mqtt_device
